@@ -20,12 +20,12 @@
 }
 #footer {
  border:solid 1px;
- padding:10px;
+ padding:5px;
  margin:0;
  background-color:darkcyan;
  bottom: 0px;
  left: 0px;
-text-align: center; 
+ text-align: center; 
  position: fixed;
  width: 100%;
 }
