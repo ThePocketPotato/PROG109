@@ -16,7 +16,9 @@
 	h1 {
 		text-align:center;
 		color:blue;
-		font-family:'DancingScriptRegular‘;
+		font-family: 'DancingScriptRegular';
+		font-weight: normal;
+		font-style: normal;
 		font-size:400%;
 }
 	p {
