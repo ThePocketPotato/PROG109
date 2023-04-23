@@ -20,13 +20,13 @@
 }
 #footer {
  border:solid 1px;
- padding:5px;
+ padding:10px;
  margin:0;
  background-color:darkcyan;
  bottom: 0px;
  left: 0px;
 text-align: center; 
- position: absolute;
+ position: relative;
  width: 100%;
 }
 #container {
