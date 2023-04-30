@@ -23,12 +23,7 @@
 			li {
 				display: inline;
 				padding: 0.5em;}
-			#feature {
-				background-color: ghostwhite;
-				background-image: url("https://thepocketpotato.github.io/PROG109/m04/images/gear.png");
-				background-size:contain;
-				background-position: right;
-				background-repeat:no-repeat;}
+
 			#nav, #footer {
 				background-color: #efefef;
 				padding: 0.5em 0;}
