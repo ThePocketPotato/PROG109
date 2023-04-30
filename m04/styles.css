@@ -10,9 +10,9 @@
 			#nav, #feature, #footer {
 				margin: 1%;}
 			#header {
-				font-family: 'CursiveSerifBook';
-				font-weight: normal;
-				font-style: italic;}
+			font-family: 'WaltographRegular';
+			font-weight: normal;
+			font-style: normal;}
 			.column1, .column2, .column3 {
 				width: 31.3%;
 				float: left;
