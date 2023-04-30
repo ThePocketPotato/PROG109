@@ -13,8 +13,13 @@
 				width: 31.3%;
 				float: left;
 				margin: 1%;}
+			.column1 {
+				background-color: aliceblue;}
+			.column2 {
+				background-color: azure;}
 			.column3 {
-				margin-right: 0%;}
+				margin-right: 0%;
+				background-color: floralwhite;}
 			li {
 				display: inline;
 				padding: 0.5em;}
@@ -24,4 +29,8 @@
 			#feature, .article {
 				height: 10em;
 				margin-bottom: 1em;
-				background-color: #efefef;}
+				background-color: ghostwhite;
+				background-image: url("https://thepocketpotato.github.io/PROG109/m04/images/gear.png");
+				background-size:contain;
+				background-position: right;
+				background-repeat:no-repeat;}
