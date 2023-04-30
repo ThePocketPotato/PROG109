@@ -28,7 +28,8 @@
 				padding: 0.5em 0;}
 			#feature, .article {
 				height: 10em;
-				margin-bottom: 1em;
+				margin-bottom: 1em;}
+			#feature {
 				background-color: ghostwhite;
 				background-image: url("https://thepocketpotato.github.io/PROG109/m04/images/gear.png");
 				background-size:contain;
