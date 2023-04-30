@@ -27,7 +27,7 @@
 			#nav, #footer {
 				background-color: #efefef;
 				padding: 0.5em 0;}
-			#feature, .article {
+			#feature {
 				height: 10em;
 				margin-bottom: 1em;
 				background-color: ghostwhite;
@@ -35,4 +35,7 @@
 				background-size:contain;
 				background-position: right;
 				background-repeat:no-repeat;}
+			.article {
+				height: 10em;
+				margin-bottom: 1em;}
 
