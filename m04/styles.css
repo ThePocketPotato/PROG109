@@ -8,7 +8,8 @@
 				text-align: center;}
 			body {
 				width: 90%;
-				margin: 0 auto;}
+				margin: 0 auto;
+				background-image:url("https://thepocketpotato.github.io/PROG109/m04/images/background.jpg");}
 			#content {
 				overflow: auto;}
 			#nav, #feature, #footer {
