@@ -1,0 +1,47 @@
+			h1 {
+				font-family: 'SofiaRegular';
+				font-weight: normal;
+				font-style: italic;	
+				color: white;}
+			* {
+				font-family: Arial, Verdana, sans-serif;
+				color: #665544;
+				text-align: center;}
+			body {
+				width: 90%;
+				margin: 0 auto;
+				background-image:url("https://thepocketpotato.github.io/PROG109/m04/images/background.jpg");
+				background-size: cover;}
+			#content {
+				overflow: auto;}
+			#nav, #feature, #footer {
+				margin: 1%;}
+			.column1, .column2, .column3 {
+				width: 31.3%;
+				float: left;
+				margin: 1%;}
+			.column1 {
+				background-color: aliceblue;}
+			.column2 {
+				background-color: azure;}
+			.column3 {
+				margin-right: 0%;
+				background-color: floralwhite;}
+			li {
+				display: inline;
+				padding: 0.5em;}
+
+			#nav, #footer {
+				background-color: lavenderblush;
+				padding: 0.5em 0;}
+			.article {
+				height: 10em;
+				margin-bottom: 1em;}
+			.feature {
+				height: 10em;
+				margin-bottom: 1em;
+				background-color: ghostwhite;
+				background-image: url("https://thepocketpotato.github.io/PROG109/m04/images/gear.png");
+				background-size:contain;
+				background-position: right;
+				background-repeat:no-repeat;}
