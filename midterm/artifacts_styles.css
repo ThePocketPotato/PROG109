@@ -26,6 +26,7 @@
 				height: 10em;
 				margin-bottom: 1em;}
 			table, th, td {
+				color: white;
 				font-size: 30px;
 				padding: 1cm;
 				border: 1px solid;
