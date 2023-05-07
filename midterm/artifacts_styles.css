@@ -38,4 +38,8 @@
 				border: 1px solid;
 				border-color: white;
 				float: left;}
+			#picture {
+				width: 30%;}
+			#description {
+				width: 70%;}
 			
