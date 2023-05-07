@@ -31,12 +31,11 @@
 				padding: 1cm;
 				border: 1px solid;
 				border-color: white;}
-			#picture {
-				float: left;}
 			#picture, #description {
 				color: white;
 				font-size: 24px;
 				padding: 1cm;
 				border: 1px solid;
-				border-color: white;}
+				border-color: white;
+				float: left;}
 			
