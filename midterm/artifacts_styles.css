@@ -25,7 +25,7 @@
 			.article {
 				height: 10em;
 				margin-bottom: 1em;}
-			#picture, #description {
+			.picture, .description {
 				color: white;
 				font-size: 24px;
 				padding: 0.5cm;
@@ -34,8 +34,8 @@
 				float: left;
 				text-align: center;
 				height: 270px;}
-			#picture {
+			.picture {
 				width: 20%;}
-			#description {
+			.description {
 				width: 60%;}
 			
