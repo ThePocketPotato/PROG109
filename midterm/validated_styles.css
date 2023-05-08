@@ -1,3 +1,7 @@
+			#nav, #footer {
+				background-color: lavenderblush;
+				padding: 0.5em 0;
+				color: #665544;}			
 			h1 {
 				font-family: 'SofiaRegular';
 				font-weight: normal;
@@ -19,10 +23,6 @@
 			li {
 				display: inline;
 				padding: 0.5em;}
-			#nav, #footer {
-				background-color: lavenderblush;
-				padding: 0.5em 0;
-				color: #665544;}
 			.article {
 				height: 10em;
 				margin-bottom: 1em;}
