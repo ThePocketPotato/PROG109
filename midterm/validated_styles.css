@@ -10,7 +10,6 @@
 				color: white;}
 			* {
 				font-family: Arial, Verdana, sans-serif;
-				color: white;
 				text-align: center;}
 			body {
 				width: 90%;
@@ -34,7 +33,8 @@
 				border: 1px solid;
 				border-color: white;
 				float: left;
-				text-align: center;}
+				text-align: center;
+				}
 			#left-column {
 				width: 40%}
 			#right-column {
