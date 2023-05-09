@@ -35,3 +35,4 @@ function GetTableContent(operator, table) {
   }
   return msg;
 }
+
