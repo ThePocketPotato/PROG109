@@ -22,7 +22,7 @@ function GetTableContent(operator, table) {
   var msg = '<h2>Multiplication Table</h2>';           
   if (operator == 'addition') {
     while (i < 11) {
-      var next_value = i + table;
+      var next_value = +i + +table;
       msg += i + ' + ' + table + ' = ' + next_value + '<br>';
       i++;
     }
