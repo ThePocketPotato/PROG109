@@ -5,8 +5,8 @@ var el = document.getElementById('blackboard');
 el.innerHTML = GetTableContent(operator, table);
 
 function GetValueFromUser() {
-  var greetingMessage = 'Hello. How are you?';
-    greetingMessage += "Enter table";
+  var greetingMessage = 'Hello. How are you doing today?';
+    greetingMessage += " Please enter the table number.";
   return prompt(greetingMessage);
 }
 
