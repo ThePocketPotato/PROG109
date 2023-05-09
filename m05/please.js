@@ -23,13 +23,13 @@ function GetTableContent(operator, table) {
   if (operator == 'addition') {
     while (i < 11) {
       var next_value = i + table;
-      msg += i + ' + ' + table + ' = ' + next_value + '<br />';
+      msg += i + ' + ' + table + ' = ' + next_value + '<br>';
       i++;
     }
   } else {
     // Do multiplication
     while (i < 11) {
-      msg += i + ' x ' + table + ' = ' + (i * table) + '<br />';
+      msg += i + ' x ' + table + ' = ' + (i * table) + '<br>';
       i++;
     }
   }
