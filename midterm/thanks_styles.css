@@ -26,6 +26,7 @@
 				height: 10em;
 				margin-bottom: 1em;}
 			#main {
+				z-index: 5;
 				font-size: 48px;
 				color:white;}
 
