@@ -1,9 +1,9 @@
 'use strict';
 
-// var rHeight =5;
-// var colorEven = "orange";
-// var colorOdd = "black";
-// var symbol ="*";
+var rHeight =5;
+var colorEven = "orange";
+var colorOdd = "black";
+var symbol ="*";
 
 function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
     upRight(pHeight, pColorEven, pColorOdd, pSymbol);
