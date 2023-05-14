@@ -1,5 +1,4 @@
-'use strict';
-
+"use strict";
 var rHeight =5;
 var colorEven = "orange";
 var colorOdd = "black";
@@ -14,10 +13,10 @@ function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
 
 function upRight(pHeight, pColorEven, pColorOdd, pSymbol) {
     var rLine = "";
-    for (i = 0; i < pHeight; i++) {
+    for (var i = 0; i < pHeight; i++) {
         rLine += "<p>";
         //Create each line on the Rhombus
-        for (j = 0; j <= i; j++) {
+        for (var j = 0; j <= i; j++) {
 
             //Is the position even or odd so we change the color
             if (j % 2)
@@ -39,10 +38,10 @@ function upRight(pHeight, pColorEven, pColorOdd, pSymbol) {
 
 function downRight(pHeight, pColorEven, pColorOdd, pSymbol) {
     var rLine = "";
-    for (i = pHeight; i > 0; i--) {
+    for (var i = pHeight; i > 0; i--) {
         rLine += "<p>";
         //Create each line on the Rhombus
-        for (j = 0; j < i; j++) {
+        for (var j = 0; j < i; j++) {
 
             //Is the position even or odd so we change the color
             if (j % 2)
@@ -54,7 +53,7 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol) {
 
         }
         rLine += "</p>";
-        console.log(rLine);
+        //console.log(rLine);
 
     }
 
@@ -63,9 +62,9 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol) {
 
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
     var lLine = "";
-    for (i = 0; i < pHeight; i++) {
+    for (var i = 0; i < pHeight; i++) {
         lLine += "<p>";
-        for (j = i + 1; j < pHeight; i++) {
+        for (var j = i + 1; j < pHeight; j++) {
             lLine += "<span style='color: white;'>*</span>";
         }
         for (j = 0; j <= i; j++) {
@@ -86,12 +85,12 @@ function upLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
 
 function downLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
     var lLine = "";
-    for (i = pHeight; i > 0; i--) {
+    for (var i = pHeight; i > 0; i--) {
         lLine += "<p>";
-        for (j = 10 - i; j > 0; i--) {
+        for (j = 10 - i; j > 0; j--) {
             lLine += "<span style='color: white;'>*</span>";
         }
-        for (j = 0; j <= i; j++) {
+        for (var j = 0; j < i; j++) {
 
             //Is the position even or odd so we change the color
             if (j % 2)
