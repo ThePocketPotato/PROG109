@@ -76,8 +76,8 @@ function upLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
             else
                 //odd
                 lLine += "<span style='color:" + pColorOdd + ";'>" + pSymbol + "</span>";
-
         }
+        lLine += "</p>";
     }
 
     document.getElementById("upLeft").innerHTML = lLine;
@@ -101,6 +101,7 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
                 lLine += "<span style='color:" + pColorOdd + ";'>" + pSymbol + "</span>";
 
         }
+        lLine += "</p>";
     }
 
     document.getElementById("downLeft").innerHTML = lLine;
