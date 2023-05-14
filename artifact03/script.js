@@ -8,7 +8,8 @@ var symbol ="*";
 function createRhombus(pHeight, pColorEven, pColorOdd, pSymbol) {
     upRight(pHeight, pColorEven, pColorOdd, pSymbol);
     downRight(pHeight, pColorEven, pColorOdd, pSymbol);
-
+    upLeft(pHeight, pColorEven, pColorOdd, pSymbol);
+    downLeft(pHeight, pColorEven, pColorOdd, pSymbol);
 }
 
 function upRight(pHeight, pColorEven, pColorOdd, pSymbol) {
@@ -35,6 +36,7 @@ function upRight(pHeight, pColorEven, pColorOdd, pSymbol) {
     document.getElementById("upRight").innerHTML = rLine;
 }
 
+
 function downRight(pHeight, pColorEven, pColorOdd, pSymbol) {
     var rLine = "";
     for (i = pHeight; i > 0; i--) {
@@ -52,9 +54,55 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol) {
 
         }
         rLine += "</p>";
-        // console.log(rLine);
+        console.log(rLine);
 
     }
 
     document.getElementById("downRight").innerHTML = rLine;
+}
+
+function upLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
+    var lLine = "";
+    for (i = 0; i < pHeight; i++) {
+        lLine += "<p>";
+        for (j = i + 1; j < pHeight; i++) {
+            lLine += "<span style='color: white;'>*</span>";
+        }
+        for (j = 0; j <= i; j++) {
+
+            //Is the position even or odd so we change the color
+            if (j % 2)
+                //even
+                lLine += "<span style='color:" + pColorEven + ";'>" + pSymbol + "</span>";
+            else
+                //odd
+                lLine += "<span style='color:" + pColorOdd + ";'>" + pSymbol + "</span>";
+
+        }
+    }
+
+    document.getElementById("upLeft").innerHTML = lLine;
+}
+
+function downLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
+    var lLine = "";
+    for (i = pHeight; i > 0; i--) {
+        lLine += "<p>";
+        for (j = 10 - i; j > 0; i--) {
+            lLine += "<span style='color: white;'>*</span>";
+        }
+        for (j = 0; j <= i; j++) {
+
+            //Is the position even or odd so we change the color
+            if (j % 2)
+                //even
+                lLine += "<span style='color:" + pColorEven + ";'>" + pSymbol + "</span>";
+            else
+                //odd
+                lLine += "<span style='color:" + pColorOdd + ";'>" + pSymbol + "</span>";
+
+        }
+    }
+
+    document.getElementById("downLeft").innerHTML = lLine;
 }
