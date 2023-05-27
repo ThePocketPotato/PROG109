@@ -1,5 +1,6 @@
-// Create a new element and store it in a variable.
+var newItem = document.getElementById('items').value;
 function add_item(name) {
+  
   var newEl = document.createElement('li');
   var newText = document.createTextNode(name);
   newEl.appendChild(newText);
