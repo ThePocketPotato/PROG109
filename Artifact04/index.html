@@ -16,8 +16,8 @@
 <input type="text" id="LastName" name="LastName" />
 </p> 
 <p> 	
-<label for='Email'>EMail:</label> 	
-<input type="text" id="EMail" name="EMail" /> 
+<label for='Email'>Email:</label> 	
+<input type="text" id="Email" name="Email" /> 
 </p> 
 <p> 	
 <label for='Phone'>Phone:</label> 	
@@ -43,6 +43,8 @@
 <option value="051">Armenia</option> 
 <option value="533">Aruba</option> 	
 </select> 
+    <label for='Zipcode'>Phone:</label> 	
+<input type="text" id="Zipcode" name="Zipcode" /> 
 </p> 
 <p> 	
 <input type="submit" name="submit" value="Submit"> 
@@ -64,6 +66,7 @@ frmvalidator.addValidation("Phone","maxlen=50");
 frmvalidator.addValidation("Phone","numeric"); 
 frmvalidator.addValidation("Address","maxlen=50"); 
 frmvalidator.addValidation("Country","dontselect=000"); 
+rmvalidator.addValidation("Zipcode", "req", "Please enter a zipcode.", "VWZ_IsListItemSelected(document.forms['myform'].elements['Country'],'US')");
 </script>
       </body>
 </html>
