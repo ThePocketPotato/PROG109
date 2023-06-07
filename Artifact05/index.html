@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-
+<button id="last_slide_but" onclick="last_slide();">Last Slide</button>
     <div id='photo'></div>
       <button id="next_slide_but" onclick="next_slide();">Next Slide</button>
 
@@ -33,7 +33,24 @@ photo.innerHTML = "<img src = 'slide0.png' alt = 'slide0'>";
         photo.innerHTML = "<img src = 'slide0.png' alt = 'slide0'>";
     }
     }
-        
+         function last_slide() {
+    if (frame == 0) {
+        frame = 4;
+        photo.innerHTML = "<img src = 'slide4.png' alt = 'slide4'>";
+    }else if (frame == 1) {
+        frame--;
+        photo.innerHTML = "<img src = 'slide0.png' alt = 'slide0'>";
+    }else if (frame == 2) {
+        frame--;
+        photo.innerHTML = "<img src = 'slide1.png' alt = 'slide1'>";
+    }else if (frame == 3) {
+        frame--;
+        photo.innerHTML = "<img src = 'slide2.png' alt = 'slide2'>";
+    }else if (frame == 4) {
+        frame--;
+        photo.innerHTML = "<img src = 'slide3.png' alt = 'slide3'>";
+    }
+    }   
 </script>
       </body>
 </html>
