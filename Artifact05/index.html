@@ -9,11 +9,31 @@
   <body>
 
     <div id='photo'></div>
+      <button id="next_slide_but" onclick="next_slide();">Next Slide</button>
 
 <script type="text/javascript"> 
 var frame = 0;
 let photo = document.getElementById("photo");
-      photo.innerHTML = "<img src = 'slide0.png' alt = 'slide0'>"
+photo.innerHTML = "<img src = 'slide0.png' alt = 'slide0'>";
+    function next_slide() {
+    if (frame == 0) {
+        frame++;
+        photo.innerHTML = "<img src = 'slide1.png' alt = 'slide1'>";
+    }else if (frame == 1) {
+        frame++;
+        photo.innerHTML = "<img src = 'slide2.png' alt = 'slide2'>";
+    }else if (frame == 2) {
+        frame++;
+        photo.innerHTML = "<img src = 'slide3.png' alt = 'slide3'>";
+    }else if (frame == 3) {
+        frame++;
+        photo.innerHTML = "<img src = 'slide4.png' alt = 'slide4'>";
+    }else if (frame == 4) {
+        frame = 0;
+        photo.innerHTML = "<img src = 'slide0.png' alt = 'slide0'>";
+    }
+    }
+        
 </script>
       </body>
 </html>
