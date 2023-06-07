@@ -14,6 +14,7 @@
 <script type="text/javascript"> 
 var frame = 0;
 let photo = document.getElementById("photo");
+    setInterval(next_frame(), 1000);
 photo.innerHTML = "<img src = 'slide0.png' alt = 'slide0'>";
     function next_slide() {
     if (frame == 0) {
