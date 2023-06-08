@@ -11,7 +11,7 @@ body {
 #cent {
 	text-align: center;
 }
-#photo {
+.photo {
 	width: 300px;
 	height: 300px;
 	text-align: center;
