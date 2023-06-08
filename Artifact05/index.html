@@ -8,6 +8,7 @@
   </head>
   <body>
     <div id='photo'></div>
+      <div id='description'></div>
       <div id = 'buttons'>
       <button onclick="last_slide();">Last Slide</button>
       <button onclick="next_slide();">Next Slide</button>
@@ -18,7 +19,7 @@
 <script type="text/javascript"> 
 var frame = 0;
 let photo = document.getElementById("photo");
-photo.innerHTML = "<img src = 'slide0.png' alt = 'slide0'>";
+photo.innerHTML = "<img src = 'images/slide0.png' alt = 'slide0'>";
  setInterval(next_slide, 10000);
     function next_slide() {
     if (frame == 0) {
