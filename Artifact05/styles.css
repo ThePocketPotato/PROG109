@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+
 
 body {
 	background-color: #000;
-	margin: 0; 
 	padding: 0;
 	color: white;
-	text-align: center;}
+	text-align: center;
+  }
 
 #cent {
 	text-align: center;
@@ -19,4 +19,16 @@ body {
 	color: white;
 	text-align: center;
 }
+#footer {
+ border: olid 1px;
+ padding: px;
+ background-color: black;
+ bottom: 0px;
+ left: 0px;
+ text-align: center;
+ 
+ 
+ position: fixed;
+ width: 100%;
+ }
 	
