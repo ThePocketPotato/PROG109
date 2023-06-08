@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,11 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div id = photo>
-    <div class = 'photos'></div>
-    </div>
-    <div>
-   
+    <div id = 'photos'>
+   </div>   
+
       <div id='description'></div>
       <div id = 'buttons'>
       <button onclick="last_slide();">Last Slide</button>
@@ -22,54 +21,54 @@
 
 <script type="text/javascript"> 
 var frame = 0;
-let photo = document.getElementById("photo");
+let photo = document.getElementById("photos");
     let description = document.getElementById("description");
-photo.innerHTML = "<img src = 'images/slide0.png' alt = 'slide0'>";
+photo.innerHTML = "<img src = 'images/slide0.png' alt = 'slide0' style=`width:300px;height:300px;`>";
     description.innerHTML = "The first website created in this course. It is a resume using pure HTML.";
  setInterval(next_slide, 10000);
     function next_slide() {
     if (frame == 0) {
         frame++;
-        photo.innerHTML = "<img src = 'images/slide1.png' alt = 'slide1'>";
+        photo.innerHTML = "<img src = 'images/slide1.png' alt = 'slide1' style=`width:300px;height:300px;>";
         description.innerHTML = "A chessboard website made without any tables and only CSS.";
     }else if (frame == 1) {
         frame++;
-        photo.innerHTML = "<img src = 'images/slide2.png' alt = 'slide2'>";
+        photo.innerHTML = "<img src = 'images/slide2.png' alt = 'slide2' style=`width:300px;height:300px;>";
         description.innerHTML = "A website that allows the user to customize the size, color, and shape of a rhombus using javascript.";
     }else if (frame == 2) {
         frame++;
-        photo.innerHTML = "<img src = 'images/slide3.png' alt = 'slide3'>";
+        photo.innerHTML = "<img src = 'images/slide3.png' alt = 'slide3' style=`width:300px;height:300px;>";
         description.innerHTML = "A website that accepts input from the user and checks to see if the values are valid using javascript.";
     }else if (frame == 3) {
         frame++;
-        photo.innerHTML = "<img src = 'images/slide4.png' alt = 'slide4'>";
+        photo.innerHTML = "<img src = 'images/slide4.png' alt = 'slide4' style=`width:300px;height:300px;>";
         description.innerHTML = "A website that shows a slideshow containing all of the artifacts I have created in this course. It changes slides every 10 seconds or can be controlled using two buttons.";
     }else if (frame == 4) {
         frame = 0;
-        photo.innerHTML = "<img src = 'images/slide0.png' alt = 'slide0'>";
+        photo.innerHTML = "<img src = 'images/slide0.png' alt = 'slide0' style=`width:300px;height:300px;> ";
         description.innerHTML = "The first website created in this course. It is a resume using pure HTML.";
     }
     }
          function last_slide() {
     if (frame == 0) {
         frame = 4;
-        photo.innerHTML = "<img src = 'images/slide4.png' alt = 'slide4'>";
+        photo.innerHTML = "<img src = 'images/slide4.png' alt = 'slide4' style=`width:300px;height:300px;>";
         description.innerHTML = "A website that shows a slideshow containing all of the artifacts I have created in this course. It changes slides every 10 seconds or can be controlled using two buttons.";
     }else if (frame == 1) {
         frame--;
-        photo.innerHTML = "<img src = 'images/slide0.png' alt = 'slide0'>";
+        photo.innerHTML = "<img src = 'images/slide0.png' alt = 'slide0' style=`width:300px;height:300px;>";
         description.innerHTML = "The first website created in this course. It is a resume using pure HTML.";
     }else if (frame == 2) {
         frame--;
-        photo.innerHTML = "<img src = 'images/slide1.png' alt = 'slide1'>";
+        photo.innerHTML = "<img src = 'images/slide1.png' alt = 'slide1' style=`width:300px;height:300px;>";
         description.innerHTML = "A chessboard website made without any tables and only CSS.";
     }else if (frame == 3) {
         frame--;
-        photo.innerHTML = "<img src = 'images/slide2.png' alt = 'slide2'>";
+        photo.innerHTML = "<img src = 'images/slide2.png' alt = 'slide2' style=`width:300px;height:300px;>";
         description.innerHTML = "A website that allows the user to customize the size, color, and shape of a rhombus using javascript.";
     }else if (frame == 4) {
         frame--;
-        photo.innerHTML = "<img src = 'images/slide3.png' alt = 'slide3'>";
+        photo.innerHTML = "<img src = 'images/slide3.png' alt = 'slide3' style=`width:300px;height:300px;>";
         description.innerHTML = "A website that accepts input from the user and checks to see if the values are valid using javascript.";
     }
     }   
