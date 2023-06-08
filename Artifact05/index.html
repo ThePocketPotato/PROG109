@@ -8,9 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-      <div class='photos'>
-    <div id='photo'></div>
-      </div>
+    <div class='photos'></div>
       <div id='description'></div>
       <div id = 'buttons'>
       <button onclick="last_slide();">Last Slide</button>
@@ -21,7 +19,7 @@
 
 <script type="text/javascript"> 
 var frame = 0;
-let photo = document.getElementById("photo");
+let photo = document.getElementsByClassName("photos");
     let description = document.getElementById("description");
 photo.innerHTML = "<img src = 'images/slide0.png' alt = 'slide0'>";
     description.innerHTML = "The first website created in this course. It is a resume using pure HTML.";
