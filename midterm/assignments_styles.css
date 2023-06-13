@@ -25,3 +25,16 @@
 			.article {
 				height: 10em;
 				margin-bottom: 1em;}
+			.picture, .description {
+				color: white;
+				font-size: 24px;
+				padding: 0.5cm;
+				border: 1px solid;
+				border-color: white;
+				float: left;
+				text-align: center;
+				height: 270px;}
+			.picture {
+				width: 10%;}
+			.description {
+				width: 30%;}
