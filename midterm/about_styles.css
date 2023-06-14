@@ -25,3 +25,14 @@
 			.article {
 				height: 10em;
 				margin-bottom: 1em;}
+			#content {
+				overflow: auto;
+      	color: white;
+				font-size: 28px;
+				padding: 0.5cm;
+				border: 5px solid;
+				border-color: gray;
+				float: left;
+				text-align: center;
+				height: 270px;
+        }
