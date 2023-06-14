@@ -2,29 +2,45 @@
 				font-family: 'SofiaRegular';
 				font-weight: normal;
 				font-style: italic;
-				color: white;}
+				color: white;
+        font-size: 64px;
+        }
 			* {
 				font-family: Arial, Verdana, sans-serif;
 				color: #665544;
-				text-align: center;}
+				text-align: center;
+        }
 			body {
 				width: 90%;
 				margin: 0 auto;
 				background-image:url("https://thepocketpotato.github.io/PROG109/m04/images/background.jpg");
-				background-size: cover;}
+				background-size: cover;
+        }
 			#content {
-				overflow: auto;}
+				overflow: auto;
+      	color: white;
+				font-size: 28px;
+				padding: 0.5cm;
+				border: 5px solid;
+				border-color: gray;
+				float: left;
+				text-align: center;
+				height: 270px;
+        }
 			#nav, #feature, #footer {
-				margin: 1%;}
+				margin: 1%;
+        }
 			li {
 				display: inline;
-				padding: 0.5em;}
+				padding: 0.5em;
+        }
 			#nav, #footer {
 				background-color: lavenderblush;
-				padding: 0.5em 0;}
+				padding: 0.5em 0;
+        }
 			.article {
 				height: 10em;
-				margin-bottom: 1em;}
-			title {
-				font-size: 64px;
-}
+				margin-bottom: 1em;
+        }
+        
+  
