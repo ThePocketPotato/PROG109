@@ -1,8 +1,7 @@
 			h1 {
 				font-family: 'SofiaRegular';
 				font-weight: normal;
-				font-style: italic;	
-				font-size: 64px;
+				font-style: italic;
 				color: white;}
 			* {
 				font-family: Arial, Verdana, sans-serif;
@@ -26,3 +25,6 @@
 			.article {
 				height: 10em;
 				margin-bottom: 1em;}
+			title {
+				font-size: 64px;
+}
