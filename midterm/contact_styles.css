@@ -1,8 +1,10 @@
 			h1 {
-				font-family: 'SofiaRegular';
-				font-weight: normal;
-				font-style: italic;	
-				color: white;}
+			  font-family: 'SofiaRegular';
+			  font-weight: normal;
+			  font-style: italic;
+			  color: white;
+			}
+
 			* {
 			  font-family: 'Times New Roman';
 			  font-weight: normal;
@@ -11,26 +13,41 @@
 			}
 
 			body {
-				width: 90%;
-				margin: 0 auto;
-				background-image:url("https://thepocketpotato.github.io/PROG109/m04/images/background.jpg");
-				background-size: cover;}
+			  width: 90%;
+			  margin: 0 auto;
+			  background-image: url("https://thepocketpotato.github.io/PROG109/m04/images/background.jpg");
+			  background-size: cover;
+			}
+
 			#content {
-				overflow: auto;
-color:white;
-				font-size: 22px;
-}
-			#nav, #feature, #footer {
-				margin: 1%;}
+			  overflow: auto;
+			  color: white;
+			  font-size: 22px;
+			}
+
+			#nav,
+			#feature,
+			#footer {
+			  margin: 1%;
+			}
+
 			li {
-				display: inline;
-				padding: 0.5em;}
+			  display: inline;
+			  padding: 0.5em;
+			}
+
 			#nav {
 			  background-color: #b3cce6;
 			  padding: 0.5em 0;
 			  border-radius: 25px;
 			  width: 100%;
 			}
+
 			.article {
-				height: 10em;
-				margin-bottom: 1em;}
+			  height: 10em;
+			  margin-bottom: 1em;
+			}
+
+			a {
+			  color: black;
+			}
