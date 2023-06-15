@@ -56,11 +56,12 @@
 			  font-size: 52px;
         float: left;
         width: 100%;
+        text-align: left;
 			}
 
 			#bouldering {
-			  float: right;
 			  padding: 80px;
+        text-align: left;
 			}
 
 			iframe {
@@ -70,3 +71,6 @@
 			#desc {
 			  padding: 20px;
 			}
+      img {
+        float: left;
+      }
