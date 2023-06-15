@@ -13,7 +13,7 @@
 				margin: 0 auto;
 				background-image:url("https://thepocketpotato.github.io/PROG109/m04/images/background.jpg");
 				background-size: cover;}
-			#nav, #feature, #footer {
+			#nav, #feature {
 				margin: 1%;}
 			li {
 				display: inline;
