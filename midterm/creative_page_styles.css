@@ -21,7 +21,8 @@
 
 			#content {
 			  overflow: auto;
-				color: white;
+			  color: white;
+			  font-size: 20px;
 			}
 
 			#nav,
@@ -50,9 +51,20 @@
 			a {
 			  color: black;
 			}
+
 			#titles {
-				float: center;
-				font-size: 32px;
-}
+			  font-size: 52px;
+			}
+
 			#bouldering {
-				float: right;}
+			  float: right;
+			  padding: 80px;
+			}
+
+			iframe {
+			  float: left;
+			}
+
+			#desc {
+			  padding: 20px;
+			}
