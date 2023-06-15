@@ -51,6 +51,8 @@
 			  color: black;
 			}
 			#titles {
-				float: left;
+				float: center;
 				font-size: 32px;
 }
+			#bouldering {
+				float: right;}
