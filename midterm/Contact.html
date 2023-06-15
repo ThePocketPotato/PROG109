@@ -5,6 +5,7 @@
   		<link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/sofia" type="text/css">
 		<link rel="stylesheet" type="text/css" href="contact_styles.css">
 		<title>Contact</title>
+		<script language="JavaScript" src="gen_validatorv4.js" type="text/javascript"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
 	</head>
@@ -24,14 +25,32 @@
 				</ul>
 			</div>
 		</div>
-		<form action="https://thepocketpotato.github.io/PROG109/midterm/Thanks">
-		<label for="user_name">Name:</label><br>
-		<input type="text" id="user_name" name="user_name"><br>
-		<label for="email">Email:</label><br>
-		<input type="text" id="email" name="email"><br>
-		<label for="comments">Comments:</label><br>
-		<input type="text" id="comments" name="comments"><br> 
-		<input type="submit" value="Submit">  
+		<form action="https://thepocketpotato.github.io/PROG109/midterm/Thanks.html" id="myform"> 
+			<p>
+		<label for="Name">Name:</label>
+		<input type="text" id="Name" name="Name">
+			</p>
+			<p>
+		<label for="Email">Email:</label>
+		<input type="text" id="Email" name="Email">
+			</p>
+			<p>
+		<label for="comments">Comments:</label>
+		<input type="text" id="comments" name="comments">
+			</p>
+			<p>
+		<input type="submit" name="submit" value="Submit"> 
+		<div id='myform_errorloc' class='error_strings'></div>
+			</p>
 		</form>
+	<script type="text/javascript"> 
+var frmvalidator = new Validator("myform"); 
+     frmvalidator.EnableOnPageErrorDisplaySingleBox();
+frmvalidator.EnableMsgsTogether();
+frmvalidator.addValidation("Name","req","Please enter your name.");  
+frmvalidator.addValidation("Email","maxlen=50");
+frmvalidator.addValidation("Email","req"); 
+frmvalidator.addValidation("Email","email"); 
+</script>
 	</body>
 </html>
