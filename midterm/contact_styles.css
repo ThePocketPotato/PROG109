@@ -18,6 +18,7 @@
 			#content {
 				overflow: auto;
 color:white;
+				font-size: 22px;
 }
 			#nav, #feature, #footer {
 				margin: 1%;}
