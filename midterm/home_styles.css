@@ -21,7 +21,7 @@
 			}
 
 			#content {
-			  overflow: auto;
+			  overflow: scroll;
 			  color: white;
 			  font-size: 28px;
 			  padding: 0.5cm;
