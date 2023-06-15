@@ -5,14 +5,12 @@
 			  color: white;
 			  font-size: 64px;
 			}
-
 			* {
 			  font-family: 'Times New Roman';
 			  font-weight: normal;
 			  font-style: normal;
 			  text-align: center;
 			}
-
 			body {
 			  width: 90%;
 			  margin: 0 auto;
@@ -25,22 +23,21 @@
 			  color: white;
 			  font-size: 28px;
 			  padding: 0.5cm;
-			  float: center;
+			  border: 5px solid;
+			  border-color: gray;
+			  float: left;
 			  text-align: center;
 			  height: 270px;
 			}
-
 			#nav,
 			#feature,
 			#footer {
 			  margin: 1%;
 			}
-
 			li {
 			  display: inline;
 			  padding: 0.5em;
 			}
-
 			#nav {
 			  background-color: #b3cce6;
 			  padding: 0.5em 0;
@@ -48,13 +45,10 @@
 			  width: 100%;
 			  color: black;
 			}
-
 			.article {
 			  height: 10em;
 			  margin-bottom: 1em;
 			}
-
 			a {
 			  color: black;
 			}
-
