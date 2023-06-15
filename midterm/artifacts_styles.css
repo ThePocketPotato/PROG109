@@ -1,7 +1,7 @@
 			h1 {
 				font-family: 'SofiaRegular';
 				font-weight: normal;
-				font-style: italic;	
+				font-style: normal;	
 				color: white;}
 			* {
 			  font-family: 'Times New Roman';
@@ -44,4 +44,7 @@
 				width: 20%;}
 			.description {
 				width: 60%;}
+a {
+	color: green;
+}
 			
