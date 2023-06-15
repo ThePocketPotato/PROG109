@@ -54,6 +54,8 @@
 
 			#titles {
 			  font-size: 52px;
+        float: left;
+        width: 100%;
 			}
 
 			#bouldering {
