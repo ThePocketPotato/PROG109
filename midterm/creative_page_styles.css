@@ -49,3 +49,7 @@
 			a {
 			  color: black;
 			}
+			#titles {
+				float: left;
+				font-size: 64px;
+}
