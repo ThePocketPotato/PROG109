@@ -17,7 +17,7 @@
 				background-size: cover;}
 			#content {
 				overflow: auto;}
-			#nav, #feature {
+			#nav {
 				margin: 1%;}
 			li {
 				display: inline;
