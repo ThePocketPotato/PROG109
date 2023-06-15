@@ -1,8 +1,10 @@
 		
-			#nav, #footer {
-				background-color: lavenderblush;
-				padding: 0.5em 0;
-				color: #665544;}			
+			#nav {
+			  background-color: #b3cce6;
+			  padding: 0.5em 0;
+			  border-radius: 25px;
+			  width: 100%;
+			}			
 			h1 {
 				font-family: 'SofiaRegular';
 				font-weight: normal;
