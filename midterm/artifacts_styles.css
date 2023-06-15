@@ -1,61 +1,69 @@
-		
+h1 {
+  font-family: 'SofiaRegular';
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+}
 
-			h1 {
-			  font-family: 'SofiaRegular';
-			  font-weight: normal;
-			  font-style: normal;
-			  color: white;
-			}
+* {
+  font-family: 'Times New Roman';
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+}
 
-			* {
-			  font-family: 'Times New Roman';
-			  font-weight: normal;
-			  font-style: normal;
-			  text-align: center;
-			}
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url("https://thepocketpotato.github.io/PROG109/m04/images/background.jpg");
+  background-size: cover;
+}
 
-			body {
-			  width: 80%;
-			  margin: 0 auto;
-			  background-image: url("https://thepocketpotato.github.io/PROG109/m04/images/background.jpg");
-			  background-size: cover;
-			  height: 100%;
-			}
+#content {
+  overflow: auto;
+}
 
-			#content {
-			  color: white;
-			  font-size: 22px;
-			}
+#nav {
+  margin: 1%;
+}
 
-			#nav {
-			  margin: 1%;
-			  background-color: #b3cce6;
-			  padding: 0.5em 0;
-			  border-radius: 25px;
-			  width: 100%;
-			}
+li {
+  display: inline;
+  padding: 0.5em;
+}
 
-			li {
-			  display: inline;
-			  padding: 0.5em;
-			}
+#nav {
+  background-color: #b3cce6;
+  padding: 0.5em 0;
+  border-radius: 25px;
+  width: 100%;
+}
 
+.article {
+  height: 10em;
+  margin-bottom: 1em;
+}
 
-			.article {
-			  height: 10em;
-			  margin-bottom: 1em;
-			}
+.picture,
+.description {
+  color: white;
+  font-size: 24px;
+  padding: 0.5cm;
+  border: 1px solid;
+  border-color: white;
+  float: left;
+  text-align: center;
+  height: 270px;
+}
 
-			h2,
-			h3 {
-			  text-align: center;
-			  color: white;
-			}
+.picture {
+  width: 20%;
+}
 
-			ul {
-			  color: white;
-			}
+.description {
+  width: 60%;
+}
 
-			a {
-			  color: black;
-			}
+a {
+  color: green;
+}
