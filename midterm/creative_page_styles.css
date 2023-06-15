@@ -4,9 +4,11 @@
 				font-style: italic;	
 				color: white;}
 			* {
-				font-family: Arial, Verdana, sans-serif;
-				color: #665544;
-				text-align: center;}
+			  font-family: 'Times New Roman';
+			  font-weight: normal;
+			  font-style: normal;
+			  text-align: center;
+			}
 			body {
 				width: 90%;
 				margin: 0 auto;
