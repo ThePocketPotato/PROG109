@@ -21,13 +21,11 @@
 			}
 
 			#content {
-			  overflow: scroll;
+			  overflow: auto;
 			  color: white;
 			  font-size: 28px;
 			  padding: 0.5cm;
-			  border: 5px solid;
-			  border-color: gray;
-			  float: left;
+			  float: center;
 			  text-align: center;
 			  height: 270px;
 			}
