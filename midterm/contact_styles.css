@@ -52,3 +52,10 @@
 			a {
 			  color: black;
 			}
+myform_errorloc {
+			padding: 0.5cm;
+			border: 5px solid;
+			border-color: gray;
+			text-align: center;
+			color: white;
+}
